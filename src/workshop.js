@@ -15,6 +15,7 @@ checkScreenSize();
 window.addEventListener('resize', checkScreenSize);
 
 
+
 var lenisActive = false;
 $(document).ready(function () {
   if (Webflow.env('editor') != undefined) {
